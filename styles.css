@@ -34,23 +34,23 @@
     margin-left: 1rem;
     padding: 0.5rem 1rem;
   }
-  /* Hero Section */
+ 
   .hero {
     background: url('hero-bg.jpg') no-repeat center center/cover;
     color: white;
     padding: 4rem;
     text-align: center;
     background-color: #8b60ed; 
-    width: 80%; /* Adjust width as needed (e.g., 80% of the viewport width) */
-    max-width: 2000px; /* Maximum width for large screens */
-    margin: 2rem auto; /* Center the box with margin on top and bottom */
+    width: 80%; 
+    max-width: 2000px; 
+    margin: 2rem auto;
     text-align: center;
-    border-radius: 8px; /* Optional: Rounded corners */
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Soft shadow for depth */
+    border-radius: 8px; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
     
   }
   
-  /* Services Section */
+ 
   .services {
     padding: 2rem;
     background-color: #f9f9f9;
@@ -96,37 +96,37 @@
   margin-bottom: 1rem;
 }
 
-/* Grid Container for Service Items */
+
 .service-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 1.5rem; /* Space between boxes */
+  gap: 1.5rem; 
   padding-top: 1rem;
 }
 
-/* Service Item Box */
+
 .service-item {
-  background-color: #ffffff; /* White background for each box */
-  border-radius: 8px; /* Rounded corners */
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  background-color: #ffffff; 
+  border-radius: 8px; 
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
   padding: 1.5rem;
   text-align: center;
-  transition: transform 0.3s ease; /* Animation for hover effect */
+  transition: transform 0.3s ease; 
 }
 
-/* Hover Effect */
+
 .service-item:hover {
-  transform: translateY(-5px); /* Slight lift on hover */
+  transform: translateY(-5px);
 }
 
-/* Icon Styling */
+
 .service-item img {
-  width: 100px; /* Adjust icon size as needed */
+  width: 100px; 
   height: auto;
   margin-bottom: 1rem;
 }
 
-/* Title and Description */
+
 .service-item h3 {
   font-size: 2rem;
   margin-bottom: 0.5rem;
@@ -145,15 +145,15 @@
   
   .methodology {
     padding: 4rem;
-    background-color: #c39bd3; /* Light purple */
+    background-color: #c39bd3; 
     color: #ffffff;
     text-align: center;
-    width: 80%; /* Adjust width as needed (e.g., 80% of the viewport width) */
-    max-width: 2000px; /* Maximum width for large screens */
-    margin: 2rem auto; /* Center the box with margin on top and bottom */
+    width: 80%; 
+    max-width: 2000px; 
+    margin: 2rem auto; 
     text-align: center;
-    border-radius: 8px; /* Optional: Rounded corners */
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Soft shadow for depth */
+    border-radius: 8px; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
   }
   
   .methodology h2 {
@@ -161,23 +161,23 @@
     margin-bottom: 1rem;
   }
   
-  /* Flexbox for Each Methodology Item */
+  
   .methodology-item {
     display: flex;
     align-items: center;
-    gap: 1.5rem; /* Space between image and text */
-    margin-bottom: 1.5rem; /* Space between each item */
+    gap: 1.5rem; 
+    margin-bottom: 1.5rem; 
     text-align: left;
   }
   
-  /* Styling the Images */
+ 
   .methodology-item .image {
-    width: 100px; /* Adjust width as needed */
+    width: 100px; 
     height: auto;
-    border-radius: 8px; /* Optional: rounded corners */
+    border-radius: 8px;
   }
   
-  /* Text Styling */
+  
   .methodology-item p {
     font-size: 2.5rem;
     line-height: 1.6;
@@ -185,17 +185,17 @@
 
 
 
-/* Testimonials Section */
+
 .testimonials {
-  background-color: #f7c843; /* Bright yellow background */
-  color: #ffffff; /* Dark text for readability */
+  background-color: #f7c843; 
+  color: #ffffff; 
   padding: 2rem;
   text-align: center;
-  width: 80%; /* Adjust width as needed (e.g., 80% of the viewport width) */
-  max-width: 2000px; /* Maximum width for large screens */
-  margin: 2rem auto; /* Center the box with margin on top and bottom */
-  border-radius: 8px; /* Optional: Rounded corners */
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Soft shadow for depth */
+  width: 80%;
+  max-width: 2000px; 
+  margin: 2rem auto; 
+  border-radius: 8px; 
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
 .testimonials h2 {
@@ -204,23 +204,23 @@
 }
 
 .testimonials-icon img {
-  width: 60px; /* Adjust size of the icon */
+  width: 60px; 
   margin-bottom: 1.5rem;
 }
 
-/* Container for Testimonial Cards */
+
 .testimonials-container {
   display: flex;
   justify-content: center;
-  gap: 1.5rem; /* Space between cards */
-  flex-wrap: wrap; /* Allows cards to wrap on smaller screens */
+  gap: 1.5rem; 
+  flex-wrap: wrap; 
 }
 
-/* Testimonial Card */
+
 .testimonial-card {
-  background-color: #ffffff; /* White background for cards */
+  background-color: #ffffff; 
   border-radius: 8px;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
   padding: 1rem;
   max-width: 300px;
   text-align: left;
@@ -229,16 +229,16 @@
   align-items: center;
 }
 
-/* Profile Image */
+
 .profile-img {
-  width: 40px; /* Size of profile images */
+  width: 40px; 
   height: 40px;
-  border-radius: 50%; /* Makes the image circular */
+  border-radius: 50%;
 }
 
-/* Content Inside Card */
+
 .testimonial-content {
-  flex: 1; /* Allows text content to take remaining space */
+  flex: 1; 
 }
 
 .testimonial-content h3 {
@@ -249,13 +249,14 @@
 
 .testimonial-content .username {
   font-size: 0.9rem;
-  color: #888888; /* Lighter color for username */
+  color: #888888; 
   margin-bottom: 0.5rem;
 }
 
 .testimonial-content p {
   font-size: 0.9rem;
   margin: 0.3rem 0;
+  color: black
 }
 
 .testimonial-content .timestamp {
@@ -263,29 +264,193 @@
   color: #888888;
 }
 
-/* Verified Check Mark */
+
 .verified {
-  color: #1da1f2; /* Twitter blue for verification */
+  color: #1da1f2; 
   font-size: 0.9rem;
   margin-left: 5px;
 }
 
 
+.plans {
+  background-color: #f8b195; 
+  color: #333333; 
+  padding: 2rem;
+  text-align: center;
+  width: 80%; 
+  max-width: 2000px; 
+  margin: 2rem auto; 
+  border-radius: 8px; 
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+}
 
-  .contact form {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-  }
-  
-  .contact form input, .contact form button {
-    padding: 0.8rem;
-  }
+.plans h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
 
-  .contact {
-    background-color: #ffffff; /* White background */
-    color: #333333; /* Dark text */
-  }
+.plans p {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+
+.toggle-buttons {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.toggle-button {
+  background-color: #ffffff;
+  border: 1px solid #333333;
+  border-radius: 15px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.toggle-button.selected {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+.discount-label {
+  background-color: #c0c0c0;
+  color: #333333;
+  padding: 0.3rem 0.7rem;
+  border-radius: 8px;
+  font-size: 0.8rem;
+  margin-left: 1rem;
+}
+
+
+.plans-container {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+
+.plan-card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  max-width: 280px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.plan-card.highlighted {
+  border: 2px solid #333333; 
+  transform: scale(1.05); 
+}
+
+
+.plan-card h3 {
+  font-size: 1.2rem;
+  color: #666666;
+  margin-bottom: 0.5rem;
+}
+
+.plan-card .price {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0.5rem 0;
+  color: #333333;
+}
+
+
+.plan-card .features {
+  list-style-type: none;
+  padding: 0;
+  margin: 1rem 0;
+}
+
+.plan-card .features li {
+  font-size: 0.9rem;
+  color: #333333;
+  margin-bottom: 0.3rem;
+}
+
+
+.choose-plan-button {
+  background-color: #333333;
+  color: #ffffff;
+  border: none;
+  padding: 0.8rem 1.2rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.choose-plan-button:hover {
+  background-color: #555555;
+}
+
+
+.contact {
+  background-color: #ffffff; 
+  color: #333333; 
+  text-align: center; 
+  padding: 2rem;
+}
+
+.contact h2 {
+  margin-bottom: 1rem; 
+  font-size: 2rem; 
+  text-align: center; 
+}
+
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 80%;
+  max-width: 500px; 
+  margin: 2rem auto; 
+  border-radius: 8px; 
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact form input,
+.contact form button {
+  padding: 0.8rem;
+  width: 100%; 
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.contact form button {
+  background-color: #333333;
+  color: #ffffff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact form button:hover {
+  background-color: #555555;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   footer {
     background-color: #333;
@@ -294,6 +459,14 @@
     text-align: center;
   }
   
+
+
+
+
+
+
+
+
   footer .social-links a {
     margin: 0 0.5rem;
     color: #fff;
